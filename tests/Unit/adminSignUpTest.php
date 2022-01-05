@@ -1,4 +1,5 @@
 <?php
+use PHPUnit\Framework\TestCase;
 declare(strict_types=1);
 final class Email
 {

@@ -36,7 +36,7 @@ public function testEmailAddressCanBeSet()
     }
 
     public function testFailedType() {
-        $this->assertFalse(password_verify(123, 123));
+        $this->assertFalse(password_verify(774534, 774534));
     }
 
     public function testSaltOnly() {

@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['emailsubscibe']))
+if(isset($_POST['emailsubscibe']))  //the “isset” function on any variable to determine if it has been set or not. this function on the $_POST array to determine if the variable was posted or not. 
 {
 $subscriberemail=$_POST['subscriberemail'];
 $sql ="SELECT SubscriberEmail FROM tblsubscribers WHERE SubscriberEmail=:subscriberemail";
@@ -8,7 +8,7 @@ $query-> bindParam(':subscriberemail', $subscriberemail, PDO::PARAM_STR);
 $query-> execute();
 $results = $query -> fetchAll(PDO::FETCH_OBJ);
 $cnt=1;
-if($query -> rowCount() > 0)
+if($query -> rowCount() > 0) //->object operator
 {
 echo "<script>alert('Already Subscribed.');</script>";
 }
@@ -79,7 +79,7 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
           </div>
         </div>
         <div class="col-md-6 col-md-pull-6">
-          <p class="copy-right">Copyright &copy; 2021 Car Cloud </p>
+          <p class="copy-right">Copyright &copy; 2022 Car Cloud </p>
         </div>
       </div>
     </div>

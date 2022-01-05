@@ -1,6 +1,7 @@
-<?php 
-session_start();
-include('includes/config.php');
+<?php
+
+session_start(); //When you work with an application, you open it, do some changes, and then you close it. This is much like a Session.
+include('includes/config.php'); //url
 error_reporting(0);
 
 ?>
@@ -13,6 +14,7 @@ error_reporting(0);
 <meta name="keywords" content="">
 <meta name="description" content="">
 <title> Car Cloud </title>
+<!--Style-->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
@@ -25,8 +27,7 @@ error_reporting(0);
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 <script src="https://kit.fontawesome.com/59c5db4307.js" crossorigin="anonymous"></script> 
 </head>
-<body>
-<?php include('includes/colorswitcher.php');?>        
+<body>     
 <!--Header-->
 <?php include('includes/header.php');?>
 <!-- /Header --> 

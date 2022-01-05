@@ -4,7 +4,9 @@ if(isset($_POST['login']))
 $email=$_POST['email'];
 $password=md5($_POST['password']);
 $sql ="SELECT EmailId,Password,FullName FROM tblusers WHERE EmailId=:email and Password=:password";
-$query= $dbh -> prepare($sql);
+$query= $dbh -> prepare($sql); //A prepared statement is a feature used to execute the same (or similar) SQL statements repeatedly with high efficiency.
+
+/* Prepared statement, stage 2: bind and execute */
 $query-> bindParam(':email', $email, PDO::PARAM_STR);
 $query-> bindParam(':password', $password, PDO::PARAM_STR);
 $query-> execute();
