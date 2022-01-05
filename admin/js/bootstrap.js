@@ -11,15 +11,8 @@ if (typeof jQuery === 'undefined') {
     throw new Error('Bootstrap\'s JavaScript requires jQuery version 1.9.1 or higher, but lower than version 3')
   }
 }(jQuery);
-
-
-
-
 +function ($) {
   'use strict';
-
-
-
   function transitionEnd() {
     var el = document.createElement('bootstrap')
 
@@ -29,7 +22,6 @@ if (typeof jQuery === 'undefined') {
       OTransition      : 'oTransitionEnd otransitionend',
       transition       : 'transitionend'
     }
-
     for (var name in transEndEventNames) {
       if (el.style[name] !== undefined) {
         return { end: transEndEventNames[name] }
@@ -38,7 +30,6 @@ if (typeof jQuery === 'undefined') {
 
     return false 
   }
-
 
   $.fn.emulateTransitionEnd = function (duration) {
     var called = false
@@ -65,11 +56,8 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
-
 +function ($) {
   'use strict';
-
-
 
   var dismiss = '[data-dismiss="alert"]'
   var Alert   = function (el) {
@@ -114,8 +102,6 @@ if (typeof jQuery === 'undefined') {
         .emulateTransitionEnd(Alert.TRANSITION_DURATION) :
       removeElement()
   }
-
-
   
   function Plugin(option) {
     return this.each(function () {
@@ -126,8 +112,7 @@ if (typeof jQuery === 'undefined') {
       if (typeof option == 'string') data[option].call($this)
     })
   }
-
-  var old = $.fn.alert
+ var old = $.fn.alert
 
   $.fn.alert             = Plugin
   $.fn.alert.Constructor = Alert

@@ -17,10 +17,7 @@ $query -> execute();
 $msg="Subscriber info deleted";
 
 }
-
-
  ?>
-
 <!doctype html>
 <html lang="en" class="no-js">
 
@@ -32,7 +29,7 @@ $msg="Subscriber info deleted";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Car Cloud Portal |Admin Manage Subscribers   </title>
+	<title>Car Cloud |Admin Manage Subscribers </title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -117,7 +114,6 @@ foreach($results as $result)
 										<tr>
 											<td><?php echo htmlentities($cnt);?></td>
 											<td><?php echo htmlentities($result->SubscriberEmail);?></td>
-									
 											<td><?php echo htmlentities($result->PostingDate);?></td>
 
 										<td>
@@ -126,7 +122,6 @@ foreach($results as $result)
 
 										</tr>
 										<?php $cnt=$cnt+1; }} ?>
-										
 									</tbody>
 								</table>
 							</div>

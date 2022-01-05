@@ -48,7 +48,7 @@ $msg="Booking Successfully Confirmed";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Car Cloud Portal |Admin Manage testimonials   </title>
+	<title>Car Cloud Portal | Admin Manage Comments   </title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">

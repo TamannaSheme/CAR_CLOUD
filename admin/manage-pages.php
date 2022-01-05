@@ -210,16 +210,10 @@ echo htmlentities($result->detail);
 
 									</div>
 								</div>
-							</div>
-							
+							</div>	
 						</div>
-						
-					
-
 					</div>
-				</div>
-				
-			
+				</div>			
 			</div>
 		</div>
 	</div>

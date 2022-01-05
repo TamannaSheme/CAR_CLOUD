@@ -73,7 +73,7 @@ $msg="Data updated successfully";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Car Cloud Portal | Admin Edit Vehicle Info</title>
+	<title>Car Cloud Portal | Admin Edit Vehicle Information </title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">

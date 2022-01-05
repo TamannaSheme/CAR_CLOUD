@@ -19,8 +19,6 @@ $query -> execute();
 
 $msg="Testimonial Successfully Inacrive";
 }
-
-
  ?>
 
 <!doctype html>
@@ -34,7 +32,7 @@ $msg="Testimonial Successfully Inacrive";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Car Cloud Portal |Admin Manage Queries   </title>
+	<title>Car Cloud |Admin Manage Queries   </title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">

@@ -1,6 +1,4 @@
-
- 
-	var endDate = "November 22, 2021";
+var endDate = "November 22, 2021";
 	$('.countdown').countdown({
 	  date: endDate,
 	  render: function(data) {

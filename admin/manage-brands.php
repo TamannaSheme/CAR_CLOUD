@@ -15,9 +15,7 @@ $query = $dbh->prepare($sql);
 $query -> bindParam(':id',$id, PDO::PARAM_STR);
 $query -> execute();
 $msg="Page data updated  successfully";
-
 }
-
  ?>
 
 <!doctype html>

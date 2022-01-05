@@ -76,6 +76,4 @@ error_reporting(0);
 <script src="assets/js/owl.carousel.min.js"></script>
 
 </body>
-
-
 </html>

@@ -17,8 +17,6 @@ $query -> bindParam(':delid',$delid, PDO::PARAM_STR);
 $query -> execute();
 $msg="Vehicle  record deleted successfully";
 }
-
-
  ?>
 
 <!doctype html>
@@ -32,7 +30,7 @@ $msg="Vehicle  record deleted successfully";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Car Cloud Portal |Admin Manage Vehicles   </title>
+	<title>Car Cloud | Admin Manage Vehicles   </title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">

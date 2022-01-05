@@ -1,9 +1,7 @@
 ﻿( function($) {
   'use strict';
 $(function(e) {
-	
-
-	var owl = $("#testimonial-slider");
+		var owl = $("#testimonial-slider");
 	owl.owlCarousel({
 	  itemsCustom : [
 		[0, 1],
@@ -17,8 +15,6 @@ $(function(e) {
 	  navigation : false,
 	  autoPlay  : 3000
 	});
-	
-	
 
 	var owl = $("#testimonial-slider-2");
 	owl.owlCarousel({
@@ -34,7 +30,6 @@ $(function(e) {
 	  navigation : false,
 	  autoPlay  : 3000
 	});
-	
 	
 	
 /*------------------------------------------------------------------
@@ -54,7 +49,6 @@ $(function(e) {
 	  autoPlay  : 3000
 	});
 
-
 /*------------------------------------------------------------------
 	Popular Brands
 	-------------------------------------------------------------------*/
@@ -73,7 +67,6 @@ $(function(e) {
 	  navigation : false,
 	  autoPlay  : 3000
 	});
-
 
 /*------------------------------------------------------------------
 	Listing Image Slider { Style }
